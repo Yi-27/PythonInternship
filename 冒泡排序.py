@@ -4,6 +4,7 @@ import random
 import time 
 # x = [1, 2, 6, 0.3, 2, 0.5, -1, 2, 4]
 # print(x)
+
 x = list(range(10000))
 random.shuffle(x) # 打乱list
 y = x.copy() # 拷贝list

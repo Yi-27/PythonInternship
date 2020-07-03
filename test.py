@@ -86,7 +86,6 @@ for i in range(len(x)):
 for j in range(0):
 	print(j)
 
-
 import random
 x = list(range(10))
 random.shuffle(x)
