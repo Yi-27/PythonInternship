@@ -74,3 +74,25 @@ print(tuple(map(lambda x: x, [1,3,6])))
 
 from math import pi
 print(pi)
+
+import math
+print(math.sin(20))
+
+x = [1, 2, 6, 0.3, 2, 0.5, -1, 2, 4]
+print(len(x))
+for i in range(len(x)):
+	print(i)
+
+for j in range(0):
+	print(j)
+
+
+import random
+x = list(range(10))
+random.shuffle(x)
+print(x)
+
+y = [1, 2, 3]
+z = y
+z[0] = 4
+print(y)
