@@ -95,3 +95,13 @@ y = [1, 2, 3]
 z = y
 z[0] = 4
 print(y)
+print(y.__len__())
+
+
+def tes():
+	pass
+
+print(type(tes))
+import numpy as np
+
+print(np.arange(10, 20))

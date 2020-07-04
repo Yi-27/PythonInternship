@@ -1,4 +1,6 @@
-# ndarray数组属性
+
+
+# ndarray数组属性 2020/7/3
 
 + ndim：返回int。表示数组的位数
 + shape：返回tuple。表示数组的尺寸，比如n行m列的矩阵，形状为(n,m)
@@ -38,21 +40,21 @@ numpy.array(object, dtype=None, copy=True, order='K', subok=False,ndmin=0)
 # 生成随机数
 
 + 无约束条件生成随机数
-    
+  
 + `np.random.random(size=6) # 0~1之间`
-    
+  
 + 生成服从均匀分布的随机数
-    
+  
 + `np.random.rand(3, 2, 2) # 3行 2列 2纬度`
-    
+  
 + 生成标准正太分布的随机数
-    
+  
 + `np.random.randn(2, 3, 2) # 标准正太分布`
-    
+  
 + 生成给定上下范围的随机数
-    
+  
 + `np.random.randint(0, 10, size=(3, 2)) # 0~10内，3行2列的随机数`
-    
+  
 + 其他常用的随机数生成函数
 
     + seed()，确定随机数种子
@@ -191,3 +193,83 @@ array([[1, 1, 1],
 #	   [2, 2, 2]]		 [3, 3, 3]]
 ```
 
+
+
+
+
+# Numpy读写文件 2020/7/4
+
+numpy文件读写主要有**二进制的文件读写**和**文件列表形式的数据读写**两种形式
+
+**二进制的文件读写**
+
++ save()，以二进制格式保存数据
+    + np.save("./tmp/save_arr", arr) # 文件扩展名可以忽略，默认就是.npy
++ load()，从二进制文件中读取数据
+    + np.load("./tmp/save_arr.npy") # 但是读取时不能忽略扩展名
++ savez()，可以将多个数组保存到一个文件中
+    + np.savez("./tmp/savez_arr", arr1, arr2)
+
++ 存储时可以省略扩展名，但读取时不能省略扩展名
+
+
+
+**文件列表形式的数据读写**
+
++ savetxt()，将数组写到某种分隔符隔开的文本文件中
+    + np.savetxt("./tmp/arr.txt", arr, fmt="%d", delimiter=",") # fmt格式化，delimiter分隔符（默认空格）
+    + 还有其他参数，比如编码格式encoding，新行newline等
++ loadtxt()，把文件加载到一个二维数组中
+    + np.loadtxt("./tmp/arr.txt", delimiter=",")
+
++ genfromtxt()，面向结构化数组和缺失数据
+    + np.genfromtxt("./tmp/arr.txt", delimiter=",")
+
+
+
+# 使用数组进行简单统计分析
+
+## 直接排序
+
++ sort()，最常用
+    + arr.sort()，可以指定axis参数使得沿着指定轴对数据集进行排序，axis=1沿横轴，axis=0为沿纵轴
+
+
+
+## 间接排序
+
++ argsort()，返回值为重新排序值在原数组的下标
++ lexsort()，返回值是按照最后一个传入数据排序的
+    + np.lexsort((a, b, c))
+
+
+
+## 去重与重复数据
+
++ unique()，找出数组中的唯一值，并返回已排序的结果
++ tile(A, reps)
+    + 参数A，指定重复的数组
+    + 参数reps，指定重复的次数
++ repeat(a, repeats, axis=None)
+    + 参数a，需要重复的数组元素
+    + 参数repeats，重复次数
+    + 参数axis，指定沿着哪个轴进行重复
+        + 0，表示按 行 进行元素重复
+        + 1，表示按 列 进行元素重复
+
+
+
+## 常用统计函数
+
+当axis=0，表示沿着纵轴计算，当axis=1，表示沿着横轴计算
+
++ sum()，计算数组和
++ mean()，计算数组均值
++ std()，计算数组标准差
++ var()，计算数组方差
++ min()，计算数组最小值
++ max()，计算数组最大值
++ argmin()，返回数组最小元素的索引
++ argmax()，返回数组最大元素的索引
++ cumsum()，计算所有元素的累计和
++ cumprod()，计算所有元素的累计积
