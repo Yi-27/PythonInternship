@@ -111,4 +111,4 @@ import pandas as pd
 data = pd.read_csv("./data/meal_order_info.csv", encoding='gbk')
 data['lock_time'] = pd.to_datetime(data['lock_time']) # 更新该列数据
 print(data['use_start_time'].dtype)
-print(pd.PeriodIndex(data['use_start_time'], freq='S')) # 指定时间间隔为 S秒  一组Period构成的Index
+print(pd.PeriodIndex(data['use_start_time'].values, freq='S')) # 指定时间间隔为 S秒  一组Period构成的Index
