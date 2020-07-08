@@ -1,3 +1,9 @@
++ Python有很多数据可视化的package，主要分为探索性分析方向的（Matplotlib，Seaborn）和交互性信息可视化（Bokeh，Plotly）,后者主要用于与业务结合过程中展现总体分析结果的。
+
++ Python有很多非常优秀易用的数据可视化的库，作为入门在这里使用Python的matplotlib，事实上Python中很多可视化库都是基于matplotlib开发的，例如Seaborn等。
+
+
+
 # pyplot基础语法
 
 ## 基本绘图流程
@@ -84,6 +90,8 @@
         + marker：string，表示绘制定的类型，默认为None
         + alpha：接收0-1的小数，表示点的透明度，默认为None
 
++ 如果为plot()命令提供单个列表或数组 ，matplotlib假定它是一系列y值，并自动为您生成x值。由于python范围以0开头，因此默认的x向量与y的长度相同，但以0开头。因此x数据为 [0,1,2,3]。
+
 
 
 # 绘制直方图（Histogram）
@@ -141,11 +149,19 @@
 
 
 
-
-
-# 中文乱码
+# 中文乱码和符号乱码修正
 
 rcParams可以用于设置图的分辨率、大小，文字字体等信息
 
 plt.rcParams['font.sans-serif'] = ['SimHei']
+
+plt.rcParams['axes.unicode_minus'] = False
+
+
+
+# 其他
+
++ matplotlib在任何文本表达式中接受TeX方程表达式（数学公式）。编写一个**由美元符号包围**的TeX表达式。
+
++ plt.title(r'$\sigma_i=15$')
 
