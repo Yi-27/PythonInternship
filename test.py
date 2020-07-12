@@ -112,3 +112,19 @@ data = pd.read_csv("./data/meal_order_info.csv", encoding='gbk')
 data['lock_time'] = pd.to_datetime(data['lock_time']) # 更新该列数据
 print(data['use_start_time'].dtype)
 print(pd.PeriodIndex(data['use_start_time'].values, freq='S')) # 指定时间间隔为 S秒  一组Period构成的Index
+
+import datetime
+
+now = datetime.datetime.now()
+print(now)
+
+import time
+print(time.time())
+# 1594546996 428
+# 1594548638 634
+# 1594548760 667
+# 1594549307 2850437
+timeStamp = 1594549307
+timeArray = time.localtime(timeStamp)
+otherStyleTime = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
+print(otherStyleTime)
