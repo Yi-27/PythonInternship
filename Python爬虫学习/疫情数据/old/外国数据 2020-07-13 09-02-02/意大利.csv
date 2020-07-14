@@ -1,0 +1,24 @@
+name,continent,date,isUpdated,confirmAdd,confirmAddCut,confirm,suspect,dead,heal,nowConfirm,confirmCompare,nowConfirmCompare,healCompare,deadCompare,nameMap
+意大利,欧洲,03.30,False,0,0,97689,0,10779,13030,73880.0,0.0,0.0,0.0,0.0,
+伦巴第,,07.13,True,0,0,95049,0,16748,70297,,,,,,Lombardy
+皮埃蒙特,,07.13,True,0,0,31498,0,4111,26329,,,,,,Piemont
+艾米利亚-罗马涅,,07.13,True,0,0,28940,0,4269,23491,,,,,,Emilia-Romagna
+威尼托,,07.13,True,0,0,19395,0,2039,16948,,,,,,Veneto
+托斯卡纳,,07.13,True,0,0,10322,0,1122,8869,,,,,,Tuscany
+利古里亚,,07.13,True,0,0,10031,0,1559,8233,,,,,,Liguria
+拉齐奥,,07.13,True,0,0,8314,0,844,6557,,,,,,Lazio
+马尔凯,,07.13,True,0,0,6804,0,987,5650,,,,,,Marche
+特伦蒂诺-上阿迪杰,,07.13,True,0,0,4881,0,405,4450,,,,,,Trentino-Alto Adige - Südtirol
+坎帕尼亚,,07.13,True,0,0,4772,0,432,4094,,,,,,Campania
+阿普利亚,,07.13,True,0,0,4541,0,546,3924,,,,,,Apulia
+弗留利-威尼斯-朱利亚,,07.13,True,0,0,3335,0,345,2911,,,,,,Friuli Venezia Giulia
+阿布鲁佐,,07.13,True,0,0,3328,0,465,2713,,,,,,Abruzzo
+西西里,,07.13,True,0,0,3099,0,283,2693,,,,,,Sicily
+博尔扎诺,,07.13,True,0,0,2666,0,292,2286,,,,,,Bolzano
+翁布里亚,,07.13,True,0,0,1450,0,80,1361,,,,,,Umbria
+撒丁岛,,07.13,True,0,0,1372,0,134,1229,,,,,,Sardinia
+卡拉布里亚,,07.13,True,0,0,1216,0,97,1062,,,,,,Calabria
+瓦莱达奥斯塔,,07.13,True,0,0,1196,0,146,1047,,,,,,Aosta Valley
+莫利塞,,07.13,True,0,0,446,0,23,410,,,,,,Molise
+巴西利卡塔,,07.13,True,0,0,406,0,27,374,,,,,,Basilicata
+地区待确认,,03.30,False,0,0,0,0,0,0,,,,,,

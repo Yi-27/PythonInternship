@@ -1,0 +1,19 @@
+name,date,nameMap,isUpdated,confirmAdd,confirmAddCut,confirm,suspect,dead,heal
+大邱,07.14,Daegu,True,0,0,6927,0,189,6720
+首尔,07.14,Seoul,True,0,0,1436,0,9,1244
+庆尚北道,07.14,North Gyeongsang,True,0,0,1393,0,54,1333
+京畿道,07.14,Gyeonggi,True,0,0,1378,0,26,1131
+地区待确认,07.14,,True,0,0,863,0,0,647
+仁川,07.14,Incheon,True,0,0,363,0,2,335
+忠清南道,07.14,South Chungcheong,True,0,0,185,0,0,165
+光州,07.14,Gwangju,True,0,0,169,0,0,54
+大田,07.14,Daejeon,True,0,0,160,0,2,87
+釜山,07.14,Busan,True,0,0,156,0,3,148
+庆尚南道,07.14,South Gyeongsang,True,0,0,148,0,0,134
+忠清北道,07.14,North Chungcheong,True,0,0,70,0,0,63
+江原道,07.14,Gangwon,True,0,0,69,0,3,57
+蔚山,07.14,Ulsan,True,0,0,55,0,1,53
+世宗,07.14,Sejong,True,0,0,50,0,0,50
+全罗北道,07.14,North Jeolla,True,0,0,38,0,0,23
+全罗南道,07.14,South Jeolla,True,0,0,32,0,0,20
+济州岛,07.14,Jeju,True,0,0,20,0,0,18

@@ -128,3 +128,8 @@ timeStamp = 1594549307
 timeArray = time.localtime(timeStamp)
 otherStyleTime = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
 print(otherStyleTime)
+
+
+d = {"1": "123", "2": 345, "3": "abc"}
+print(d.pop("2"))
+print(d)
