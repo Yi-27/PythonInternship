@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/South_Korea.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/romantic.js"></script>
+
+</head>
+<body>
+    <div id="b04e561e5112481380cff898f47af9b1" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_b04e561e5112481380cff898f47af9b1 = echarts.init(
+            document.getElementById('b04e561e5112481380cff898f47af9b1'), 'romantic', {renderer: 'canvas'});
+        var option_b04e561e5112481380cff898f47af9b1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "map",
+            "name": "\u7d2f\u8ba1\u6cbb\u6108",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "\u97e9\u56fd",
+            "data": [
+                {
+                    "name": "Daegu",
+                    "value": 6720
+                },
+                {
+                    "name": "Seoul",
+                    "value": 1275
+                },
+                {
+                    "name": "North Gyeongsang",
+                    "value": 1334
+                },
+                {
+                    "name": "Gyeonggi",
+                    "value": 1149
+                },
+                {
+                    "name": null,
+                    "value": 652
+                },
+                {
+                    "name": "Incheon",
+                    "value": 336
+                },
+                {
+                    "name": "South Chungcheong",
+                    "value": 167
+                },
+                {
+                    "name": "Gwangju",
+                    "value": 57
+                },
+                {
+                    "name": "Daejeon",
+                    "value": 91
+                },
+                {
+                    "name": "Busan",
+                    "value": 148
+                },
+                {
+                    "name": "South Gyeongsang",
+                    "value": 134
+                },
+                {
+                    "name": "North Chungcheong",
+                    "value": 63
+                },
+                {
+                    "name": "Gangwon",
+                    "value": 58
+                },
+                {
+                    "name": "Ulsan",
+                    "value": 53
+                },
+                {
+                    "name": "Sejong",
+                    "value": 50
+                },
+                {
+                    "name": "North Jeolla",
+                    "value": 23
+                },
+                {
+                    "name": "South Jeolla",
+                    "value": 20
+                },
+                {
+                    "name": "Jeju",
+                    "value": 18
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": false,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7d2f\u8ba1\u6cbb\u6108"
+            ],
+            "selected": {
+                "\u7d2f\u8ba1\u6cbb\u6108": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u97e9\u56fd7.15 \u7d2f\u8ba1\u6cbb\u6108",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "max": 4000000,
+                "min": 1000000,
+                "label": ">1000000",
+                "color": "#C71585"
+            },
+            {
+                "max": 999999,
+                "min": 100000,
+                "label": "100000-999999",
+                "color": "#B40404"
+            },
+            {
+                "max": 99999,
+                "min": 10000,
+                "label": "10000-99999",
+                "color": "#DF0101"
+            },
+            {
+                "max": 9999,
+                "min": 1000,
+                "label": "1000-9999",
+                "color": "#F78181"
+            },
+            {
+                "max": 999,
+                "min": 500,
+                "label": "500-999",
+                "color": "#F5A9A9"
+            },
+            {
+                "max": 499,
+                "min": 0,
+                "label": "0-499",
+                "color": "#AAAAAA"
+            }
+        ]
+    }
+};
+        chart_b04e561e5112481380cff898f47af9b1.setOption(option_b04e561e5112481380cff898f47af9b1);
+    </script>
+</body>
+</html>
