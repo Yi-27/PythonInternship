@@ -1,19 +1,19 @@
 name,date,nameMap,isUpdated,confirmAdd,confirmAddCut,confirm,suspect,dead,heal
-大邱,07.15,Daegu,True,0,0,6927,0,189,6720
-首尔,07.15,Seoul,True,0,0,1442,0,9,1275
-庆尚北道,07.15,North Gyeongsang,True,0,0,1393,0,54,1334
-京畿道,07.15,Gyeonggi,True,0,0,1383,0,26,1149
-地区待确认,07.15,,True,0,0,886,0,0,652
-仁川,07.15,Incheon,True,0,0,364,0,2,336
-忠清南道,07.15,South Chungcheong,True,0,0,185,0,0,167
-光州,07.15,Gwangju,True,0,0,170,0,0,57
-大田,07.15,Daejeon,True,0,0,163,0,2,91
-釜山,07.15,Busan,True,0,0,156,0,3,148
-庆尚南道,07.15,South Gyeongsang,True,0,0,148,0,0,134
-忠清北道,07.15,North Chungcheong,True,0,0,70,0,0,63
-江原道,07.15,Gangwon,True,0,0,69,0,3,58
-蔚山,07.15,Ulsan,True,0,0,55,0,1,53
-世宗,07.15,Sejong,True,0,0,50,0,0,50
-全罗北道,07.15,North Jeolla,True,0,0,38,0,0,23
-全罗南道,07.15,South Jeolla,True,0,0,32,0,0,20
-济州岛,07.15,Jeju,True,0,0,20,0,0,18
+大邱,07.22,Daegu,True,0,0,6937,0,190,6730
+首尔,07.22,Seoul,True,0,0,1514,0,11,1346
+京畿道,07.22,Gyeonggi,True,0,0,1451,0,29,1237
+庆尚北道,07.22,North Gyeongsang,True,0,0,1395,0,54,1338
+地区待确认,07.22,,True,0,0,997,0,0,698
+仁川,07.22,Incheon,True,0,0,377,0,2,349
+光州,07.22,Gwangju,True,0,0,191,0,2,101
+忠清南道,07.22,South Chungcheong,True,0,0,187,0,0,179
+大田,07.22,Daejeon,True,0,0,166,0,2,135
+釜山,07.22,Busan,True,0,0,157,0,3,149
+庆尚南道,07.22,South Gyeongsang,True,0,0,156,0,0,142
+江原道,07.22,Gangwon,True,0,0,72,0,3,59
+忠清北道,07.22,North Chungcheong,True,0,0,72,0,0,66
+蔚山,07.22,Ulsan,True,0,0,57,0,1,53
+世宗,07.22,Sejong,True,0,0,50,0,0,50
+全罗北道,07.22,North Jeolla,True,0,0,39,0,0,27
+全罗南道,07.22,South Jeolla,True,0,0,35,0,0,21
+济州岛,07.22,Jeju,True,0,0,26,0,0,18
